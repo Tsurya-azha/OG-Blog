@@ -1,0 +1,59 @@
+#hero  {
+    padding-left: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#BlogWrapper a {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px 5%;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    width: 700px;
+}
+
+.blogImg {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+}
+
+#Random {
+    margin-top: 100px;
+}
+
+.BtnAcak {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #hero {
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #BlogWrapper a {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .blogImg {
+        width: 80%;
+        height: auto;
+    }
+}
